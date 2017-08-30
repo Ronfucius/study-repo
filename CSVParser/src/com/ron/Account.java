@@ -3,12 +3,12 @@ package com.ron;
 public class Account {
 
 	private long pk;
-	private int debit_amount;
-	private int credit_amount;
+	private String debit_amount;
+	private String credit_amount;
 	private String head_office_branch_name;
 	private String account_item_name;
 
-	public Account(long pk, int debit_amount, int credit_amount, String head_office_branch_name,
+	public Account(long pk, String debit_amount, String credit_amount, String head_office_branch_name,
 			String account_item_name)
 
 	{
@@ -28,19 +28,19 @@ public class Account {
 		this.pk = pk;
 	}
 
-	public int getDebit_amount() {
+	public String getDebit_amount() {
 		return debit_amount;
 	}
 
-	public void setDebit_amount(int debit_amount) {
+	public void setDebit_amount(String debit_amount) {
 		this.debit_amount = debit_amount;
 	}
 
-	public int getCredit_amount() {
+	public String getCredit_amount() {
 		return credit_amount;
 	}
 
-	public void setCredit_amount(int credit_amount) {
+	public void setCredit_amount(String credit_amount) {
 		this.credit_amount = credit_amount;
 	}
 
