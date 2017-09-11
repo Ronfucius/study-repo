@@ -41,22 +41,22 @@ public class SumCollectorTest {
 
 				// These convert CSV values to Strings, then Convert to an Integer
 
-				String RequestedColumnOneString = requestedColumns[0].toString();
+				String RequestedColumnOneString = requestedColumns[0];
 				int RequestedColumnOneInt = Integer.parseInt(RequestedColumnOneString);
 
 				// These convert CSV values to Strings, then Convert to an Integer
 
-				String RequestedColumnFourString = requestedColumns[3].toString();
+				String RequestedColumnFourString = requestedColumns[3];
 				int RequestedColumnFourInt = Integer.parseInt(RequestedColumnFourString);
 
 				// These convert CSV values to Strings, then Convert to an Integer
 
-				String RequestedColumnFiveString = requestedColumns[4].toString();
+				String RequestedColumnFiveString = requestedColumns[4];
 				int RequestedColumnFiveInt = Integer.parseInt(RequestedColumnFiveString);
 
 				// These convert CSV values to Strings, then Convert to an Integer
 
-				String RequestedColumnSevenString = requestedColumns[6].toString();
+				String RequestedColumnSevenString = requestedColumns[6];
 				int RequestedColumnSevenInt = Integer.parseInt(RequestedColumnSevenString);
 
 				// This takes the recently converted Integers and adds them to a List
